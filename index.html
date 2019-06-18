@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>האחים קאשי _חוג כדורגל</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  </head>
+<body>
+
+<header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container" >
+        <div class="navbar-header">
+          <a href="index.html" class="pull-right">
+            <div id="logo"  class="pull-right"></div>
+          </a>
+            <p>
+            <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </p>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+             <li id="navHomeButton" class="visible-xs active">
+              <a href="#" onclick="$dc.loadHome();">
+                <span class="glyphicon glyphicon-home"></span> בית</a>
+            </li>
+            <li>
+              <a  id="call-btn" class="hidden-xs hidden-sm" class="btn" href="tel:410-602-5008">
+                <span class="glyphicon glyphicon-earphone"></span><br class="hidden-xs">התקשרו</a> 
+            </li>
+            <li id="birthday">
+              <a  href="#" onclick="$dc.loadBirthday();">
+                <span class="glyphicon glyphicon-gift"></span><br class="hidden-xs"> ימי הולדת</a>
+            </li>
+            <li  id="clas" >
+              <a href="#" onclick="$dc.loadClass();">
+                <span class="glyphicon glyphicon-education"></span><br class="hidden-xs"> חוגים</a>
+            </li>
+            <li id="about" >
+              <a href="#"id="last_li" onclick="$dc.loadAbout();">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> קצת עלינו</a>
+            </li>
+            <li id="gallery" >
+              <a href="#" onclick="$dc.loadGallery();" class="">
+                <span class="glyphicon glyphicon-picture"></span><br class="hidden-xs">  גלרייה</a>
+            </li>
+           
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+
+        </div>
+    </nav>
+    
+  </header>
+  <div id="call" class="visible-xs visible-sm">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    410-602-5008
+    </a>
+  </div>
+
+
+  <div id="main-content" class="container">
+  </div>
+ <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4" dir="rtl">
+          <span >שעות פעילות :</span><br>
+          אנו זמינים לכל אורך היום והשבוע <br>
+          <span>שעות החוגים:</span><br>
+          א-ה : 16:00-19:00 לבכירתכם<br>
+          ו: 13:00-14:00 <br>
+          שבת אין חוגים
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4" dir="rtl">
+          <span>כתובת:</span><br>
+         אנו פועלים בעיקר באזור המרכז<br>
+             <span>שעות הפעלות :</span><br>
+              לכל אורך היום והשבוע
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4" dir="rtl">
+          <p>"שני ילדי הקטנים כבר למעלה מ-3 שנים בחוג , מרוצה מכל רגע , החיוכים שלהם אחרי כל אימון - שווה הכל !"</p>
+          <p>"צוות מאמנים נהדר , יחס אישי ואוהב לכל הילדים , ממליצה בחום ! לא תתאכזבו !"</p> <br>
+          <p>"בתור אמא צעירה תמיד חששתי מחוגי ספורט המוניים , נוכחתי לגלות אחרת בחוג זה , שמחה על ההחלטה , יחס חם ואוהב לכל ילד וילד :)"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; hadarmanor web design </div>
+    </div>
+  </footer>
+
+   <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
+

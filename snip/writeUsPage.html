@@ -1,0 +1,32 @@
+
+<h2 class="text-center">טופס יצירת קשר</h2>
+<h3 id="titleB" class="text-center">במידה ואנו לא זמינים בנייד - נשמח שתשאירו פרטים ונחזור אלייכם בהקדם  </h3><br>
+<h4 id="Btext" dir="rtl">
+
+אנא מלאו את פרטי התתקשרות במלואם . <br>פרטים אלו נועדו כדי שאנו נוכל ליצור עימכם קשר .   <br></h4>
+<h4 class="warning" class="text-center" dir="rtl"> עמוד זה יתעדכן בהמשך , בינתיים ניתן להשיג אותנו בטלפון .</h4>
+<form name="myForm" method="post" action=""
+ onsubmit="return $dc.validateForm()" dir="rtl">
+    <p><label for="name">שם מלא:</label>
+    <input  type="text" name="name" id="name" value="" required/></p>
+
+   <p> <label for="phone">טלפון:</label>
+    <input type="text" name="phone" id="phone" value="" /></p>
+
+   <p> <label for="email">דוא"ל:</label>
+    <input type="text" name="email" id="email" value="" /></p>
+
+   <p> <label for="message">תוכן ההודעה:</label>
+    <textarea type="text" name="message" id="message"></textarea></p>
+
+    <input type="submit" name="submit" value="שלח" />
+</form>
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span id="close" class="close">&times;</span>
+    <h3 class="text-center"></h3>
+  </div>
+</div>
+
