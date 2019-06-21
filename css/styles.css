@@ -433,6 +433,7 @@ input:selected {
   }
   #logo {
     margin-right: -55px ; 
+        overflow: hidden;
   }
 }
 
@@ -446,6 +447,7 @@ input:selected {
   }
   #logo {
     margin-right: 0px ; 
+        overflow: hidden;
   }
   .navbar-header{
   width: 100%;
@@ -500,6 +502,7 @@ input:selected {
    width: 280px;
    float: right;
    margin-top: 30px ; 
+        overflow: hidden;
   }
   .navbar-header{
     width: 100%;
@@ -518,7 +521,8 @@ input:selected {
     margin: 0 auto 15px;
   }
   #logo {
-    margin-right: -20px ; 
+    margin-right: -20px ;
+        overflow: hidden;
   }
 }
 @media (max-width: 415px) {
@@ -538,6 +542,7 @@ input:selected {
     width: 220px;
     float: right;
     margin-top: 40px ; 
+        overflow: hidden;
   }
   @media (max-width: 328px) {
   #class-tile, #birthday-tile, #write-tile {
