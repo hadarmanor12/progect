@@ -9,12 +9,16 @@ body{
   overflow-x: hidden;
 
 }
+header{
+      overflow: hidden;
+}
 /** HEADER **/
 #header-nav {
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
   position: relative;
+      overflow: hidden;
 }
 .warning{
   color: red;
@@ -35,6 +39,7 @@ body{
 .navbar-header{
   width: 100%;
   height: 168px
+        overflow: hidden;
 }
 
 .icon-bar{
