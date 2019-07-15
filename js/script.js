@@ -62,10 +62,6 @@ var switchToActive = function (Id) {
   classes = classes.replace(new RegExp("active", "g"), "");
   document.getElementById("about").className = classes;
 
-classes = document.getElementById("call-btn").className;
-  classes = classes.replace(new RegExp("active", "g"), "");
-  document.getElementById("call-btn").className = classes;
-
   classes = document.getElementById("gallery").className;
   classes = classes.replace(new RegExp("active", "g"), "");
   document.getElementById("gallery").className = classes;
